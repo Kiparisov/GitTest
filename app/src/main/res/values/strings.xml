@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GitTest</string>
+    <string name="text">My first GIT Flow app!</string>
 </resources>
