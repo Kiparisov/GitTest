@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T04:50:38.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="_0yBYzPDJNjLffJf0f92" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T04:59:21.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oRZx20OpT-4bFgNBilXx" version="21.7.5" type="github">
   <diagram name="Страница — 1" id="81KTHNVCq4uO8vhRjPFY">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-1" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CT68_Ke5vsG9kClYCJAh-2" target="CT68_Ke5vsG9kClYCJAh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-2" value="FireBase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CT68_Ke5vsG9kClYCJAh-4" target="CT68_Ke5vsG9kClYCJAh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-4" value="API Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CT68_Ke5vsG9kClYCJAh-5" target="CT68_Ke5vsG9kClYCJAh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-5" value="RepositoryImpl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CT68_Ke5vsG9kClYCJAh-10" target="CT68_Ke5vsG9kClYCJAh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-10" value="RetrofitInstance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-13" value="NewsPost" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-14" value="Comment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-15" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;GetNewsListUseCase&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;GetCommentsListUseCase&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="372.5" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="CT68_Ke5vsG9kClYCJAh-18" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;GetNewsPost&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
